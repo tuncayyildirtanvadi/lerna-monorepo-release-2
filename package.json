@@ -14,14 +14,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davikawasaki/lerna-monorepo-mr.git"
+    "url": "git+https://github.com/TuncayYildirtanVadi/lerna-monorepo-mr.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davikawasaki/lerna-monorepo-mr/issues"
+    "url": "https://github.com/TuncayYildirtanVadi/lerna-monorepo-mr/issues"
   },
-  "homepage": "https://github.com/davikawasaki/lerna-monorepo-mr#readme",
+  "homepage": "https://github.com/TuncayYildirtanVadi/lerna-monorepo-mr#readme",
   "devDependencies": {
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
