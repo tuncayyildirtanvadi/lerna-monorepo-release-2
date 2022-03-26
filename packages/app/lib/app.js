@@ -2,4 +2,4 @@
 
 const greeting = require('lib')
 
-console.log(greeting({ name: "Tuncay 12" }))
+console.log(greeting({ name: "Tuncay 123" }))
