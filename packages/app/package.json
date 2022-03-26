@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Main app center",
   "author": "Davi Kawasaki <davishinjik@gmail.com>",
   "homepage": "https://github.com/davikawasaki/lerna-monorepo-mr/tree/master/packages/app#readme",
