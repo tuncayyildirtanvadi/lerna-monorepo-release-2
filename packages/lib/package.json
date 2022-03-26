@@ -1,6 +1,6 @@
 {
   "name": "lib",
-  "version": "0.0.1-dev.3",
+  "version": "0.0.1-dev.4",
   "description": "> TODO: description",
   "author": "Davi Kawasaki <davishinjik@gmail.com>",
   "homepage": "https://github.com/davikawasaki/lerna-monorepo-mr/tree/master/packages/lib#readme",
