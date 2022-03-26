@@ -1,0 +1,34 @@
+{
+  "name": "lerna-monorepo-mr",
+  "version": "0.0.1-dev.0",
+  "description": "Management release example for Lerna monorepos.",
+  "main": "index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "postinstall": "lerna bootstrap",
+    "publish-lib-dev": "lerna version -m 'feat(release): tag lib release on dev' --conventional-commits --conventional-prerelease=lib --preid dev --yes",
+    "publish-app-dev": "lerna version -m 'feat(release): tag app release on dev' --conventional-commits --conventional-prerelease=app --preid dev --yes",
+    "publish-lib-prod": "lerna version -m 'chore(release): tag lib release on prod' --conventional-commits --conventional-graduate=lib --yes",
+    "publish-app-prod": "lerna version -m 'chore(release): tag app release on prod' --conventional-commits --conventional-graduate=app --yes",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davikawasaki/lerna-monorepo-mr.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davikawasaki/lerna-monorepo-mr/issues"
+  },
+  "homepage": "https://github.com/davikawasaki/lerna-monorepo-mr#readme",
+  "devDependencies": {
+    "@commitlint/cli": "11.0.0",
+    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/prompt": "11.0.0",
+    "commitizen": "4.2.2",
+    "git-cz": "4.7.6",
+    "husky": "4.3.5",
+    "lerna": "^3.22.1"
+  }
+}
