@@ -2,5 +2,16 @@
   "packages": [
     "packages/*"
   ],
-  "version": "independent"
+  "version": "independent",
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "allowBranch": ["master", "next"],
+      "message": "chore(release): Publish"
+    }
+  }
 }
