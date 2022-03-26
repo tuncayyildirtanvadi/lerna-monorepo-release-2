@@ -3,6 +3,7 @@
   "version": "0.0.1-dev.0",
   "description": "Management release example for Lerna monorepos.",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "commit": "git-cz",
     "postinstall": "lerna bootstrap",
@@ -16,6 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/TuncayYildirtanVadi/lerna-monorepo-release.git"
   },
+  "workspaces": [
+    "packages/*"
+  ],
   "author": "",
   "license": "MIT",
   "bugs": {
