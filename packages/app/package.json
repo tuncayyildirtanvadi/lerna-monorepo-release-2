@@ -1,9 +1,9 @@
 {
   "name": "app",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "description": "Main app center",
   "author": "Davi Kawasaki <davishinjik@gmail.com>",
-  "homepage": "https://github.com/TuncayYildirtanVadi/lerna-monorepo-mr/tree/master/packages/app#readme",
+  "homepage": "https://github.com/TuncayYildirtanVadi/lerna-monorepo-release/tree/master/packages/app#readme",
   "license": "MIT",
   "main": "lib/app.js",
   "directories": {
@@ -15,15 +15,15 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TuncayYildirtanVadi/lerna-monorepo-mr.git"
+    "url": "git+https://github.com/TuncayYildirtanVadi/lerna-monorepo-release.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
-    "url": "https://github.com/TuncayYildirtanVadi/lerna-monorepo-mr/issues"
+    "url": "https://github.com/TuncayYildirtanVadi/lerna-monorepo-release/issues"
   },
   "dependencies": {
-    "lib": "^1.0.0"
+    "lib": "^2.0.0"
   }
 }
