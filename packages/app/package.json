@@ -1,6 +1,6 @@
 {
   "name": "app",
-  "version": "5.0.0",
+  "version": "5.1.0",
   "description": "Main app center",
   "author": "Davi Kawasaki <davishinjik@gmail.com>",
   "homepage": "https://github.com/TuncayYildirtanVadi/lerna-monorepo-release/tree/master/packages/app#readme",
@@ -24,6 +24,6 @@
     "url": "https://github.com/TuncayYildirtanVadi/lerna-monorepo-release/issues"
   },
   "dependencies": {
-    "lib": "^2.0.0"
+    "lib": "^2.1.0"
   }
 }

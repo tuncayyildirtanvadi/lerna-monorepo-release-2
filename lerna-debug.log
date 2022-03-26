@@ -1,0 +1,9 @@
+48 error Error: Command failed with exit code 1: git add -- packages/lib/package.json packages/lib/package-lock.json packages/lib/CHANGELOG.md packages/app/package.json packages/app/CHANGELOG.md
+48 error The following paths are ignored by one of your .gitignore files:
+48 error packages/app/CHANGELOG.md
+48 error packages/lib/CHANGELOG.md
+48 error Use -f if you really want to add them.
+48 error     at makeError (/Users/TuncayYLDRTN/Documents/MySpikes/lerna-monorepo-release/node_modules/execa/lib/error.js:60:11)
+48 error     at handlePromise (/Users/TuncayYLDRTN/Documents/MySpikes/lerna-monorepo-release/node_modules/execa/index.js:118:26)
+48 error     at processTicksAndRejections (node:internal/process/task_queues:96:5)
+48 error     at async Promise.all (index 0)
